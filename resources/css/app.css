@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image-container {
+	height: 200px; /* Фиксированная высота контейнера */
+	overflow: hidden; /* Обрезает изображение, если оно превышает размеры контейнера */
+}
+
+.prod-card:hover {
+	box-shadow: 0 2px 10px rgba(88, 88, 88, 0.274)
+}
+
+.prod-card-btn{
+	color:white !important;
+}
+
+
+.prod-card-btn:hover {
+	background-color: rgba(0, 0, 0, 0.76);
+}
+
+
+.prod-card-btn:hover a{
+	color:white !important;
+}
+
